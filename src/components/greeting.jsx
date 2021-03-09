@@ -7,7 +7,6 @@ function Greeting() {
     color: "#000000"
   };
   let currentHour = new Date().getHours();
-  console.log(currentHour);
 
   if (currentHour > 5 && currentHour <= 10) {
     greeting = "Good Morning";
