@@ -29,7 +29,16 @@ function Greeting() {
       color: "#4232a8"
     };
   }
-  return <h1 style={greetingStyle}>{greeting}</h1>;
+  return (
+    <div>
+      <h1 style={greetingStyle}>{greeting}</h1>
+      {currentHour > 8 ? (
+        <h2>Start working</h2>
+      ) : (
+        <h2>You should be sleeping</h2>
+      )}
+    </div>
+  );
 }
 
 export default Greeting;
