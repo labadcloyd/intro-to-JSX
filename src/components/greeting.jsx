@@ -29,6 +29,8 @@ function Greeting() {
       color: "#4232a8"
     };
   }
+  let breakWord = false;
+  let textDecor = { textDecoration: "line-through" };
   return (
     <div>
       <h1 style={greetingStyle}>{greeting}</h1>
@@ -37,6 +39,7 @@ function Greeting() {
       ) : (
         <h2>You should be sleeping</h2>
       )}
+      <h2 style={breakWord ? textDecor : null}>Hello there</h2>
     </div>
   );
 }
