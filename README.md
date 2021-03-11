@@ -1,2 +1,3 @@
-# intro-to-JSX
-Created with CodeSandbox
+# intro-to-REACT
+
+This is solely for REACT practice purposes.
