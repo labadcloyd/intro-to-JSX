@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Greeting from "./components/greeting";
 import Images from "./components/images";
-import { Add, Minus, Divide, Multiply } from "./components/math";
+import { Add, Minus, Divide, Multiply, Counter } from "./components/math";
 import User from "./components/user";
 import contacts from "./contacts";
 import CreateNewCard from "./components/Card";
@@ -29,6 +29,7 @@ ReactDOM.render(
     <p>{Add(3, 4)}</p>
     <hr></hr>
     <User userName="labadcloyd" email="labadcloyd@1.com" tel="0923423456" />
+    <Counter />
     <hr></hr>
     <p>Copyright {currentYear}</p>
   </div>,
